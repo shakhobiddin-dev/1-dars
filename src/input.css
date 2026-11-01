@@ -10,7 +10,7 @@
 }
 
 .list {
-  @apply font-medium text-[16px] leading-[150%] text-[#fff] opacity-[0.6] inline-block transform scale-100 transition ease-in-out duration-500 hover:opacity-100  hover:scale-110;
+  @apply font-medium text-[16px] leading-[150%] text-[#fff] opacity-[0.6] transform scale-100 transition ease-in-out duration-500 hover:opacity-100  hover:scale-120;
 }
 
 button {

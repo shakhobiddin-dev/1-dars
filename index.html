@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,19 +8,19 @@
     </head>
     <body class="font-text">
         <!-- HEADER STARTED -->
-        <header class="w-full h-screen bg-[#232536]">
+        <header id="header" class="w-full h-screen bg-[#232536]">
             <nav class="w-full h-[80px] bg-[#232536] flex items-center fixed top-0 z-50">
                 <div class="container flex justify-between items-center">
                     <img src="./images/nav_logo.svg" alt="" />
                     <ul class="w-[50%] flex justify-between items-center">
-                        <li><a class="list" href="#">Home</a></li>
-                        <li><a class="list" href="#">Service</a></li>
-                        <li><a class="list" href="#">Company</a></li>
-                        <li><a class="list" href="#">Career</a></li>
-                        <li><a class="list" href="#">Blog</a></li>
-                        <li><a class="list" href="#">Contact us</a></li>
+                        <li><a class="list inline-block" href="#header">Home</a></li>
+                        <li><a class="list inline-block" href="#service">Service</a></li>
+                        <li><a class="list inline-block" href="#company">Company</a></li>
+                        <li><a class="list inline-block" href="#career">Career</a></li>
+                        <li><a class="list inline-block" href="#blog">Blog</a></li>
+                        <li><a class="list inline-block" href="#footer">Contact us</a></li>
                         <li>
-                            <a class="list flex items-center gap-[8px]" href="#">Clone project <img src="./images/arrow.svg" alt="" /></a>
+                            <a class="list flex gap-[8px]" href="#">Clone project<img src="./images/arrow.svg" alt="" /></a>
                         </li>
                     </ul>
                 </div>
@@ -72,7 +72,7 @@
         </header>
 
         <main class="flex flex-col justify-center">
-            <section class="container h-screen pt-20 flex flex-col justify-center gap-4">
+            <section id="company" class="container h-screen pt-20 flex flex-col justify-center gap-4">
                 <div class="flex justify-between items-center">
                     <div>
                         <p class="font-medium text-[14px] leading-[143%] tracking-[0.21em] uppercase text-[#000] opacity-[0.87] mb-4">ABOUT US</p>
@@ -180,7 +180,7 @@
                 </div>
             </section>
 
-            <section class="h-screen pt-20 bg-[#ffe6d2] flex flex-col justify-center">
+            <section id="service" class="h-screen pt-20 bg-[#ffe6d2] flex flex-col justify-center">
                 <div class="container flex flex-col gap-20">
                     <div class="w-[700px]">
                         <p class="font-medium text-[14px] leading-[143%] tracking-[0.21em] uppercase text-[#000] opacity-[0.87] mb-4">Our Services</p>
@@ -237,7 +237,7 @@
                 </div>
             </section>
 
-            <section class="container h-screen pt-20 flex flex-col justify-center gap-16">
+            <section id="career" class="container h-screen pt-20 flex flex-col justify-center gap-16">
                 <div class="relative">
                     <div class="w-[700px]">
                         <p class="font-medium text-[14px] leading-[143%] tracking-[0.21em] uppercase text-[#000] opacity-[0.87] mb-4">Our Process</p>
@@ -330,7 +330,7 @@
                 </div>
             </section>
 
-            <section class="h-screen bg-[#f9f9ff] flex items-center">
+            <section id="blog" class="h-screen bg-[#f9f9ff] flex items-center">
                 <div class="container flex justify-between items-center">
                     <div class="w-[600px]">
                         <div class="size-[20px] bg-[#444cfc]"></div>
@@ -429,7 +429,7 @@
                 </div>
             </section>
         </main>
-        <footer class="h-[560px] flex flex-col justify-between">
+        <footer id="footer" class="h-[560px] flex flex-col justify-between">
             <div class="container h-full flex flex-col">
                 <div class="flex justify-between items-center">
                     <div>
